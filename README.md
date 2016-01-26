@@ -119,6 +119,7 @@ Wrapper Libraries for libpcap/WinPcap<a name="wrapper"></a>
   * [ruby-pcap](https://github.com/ahobson/ruby-pcap): ruby-pcap is a ruby extension to LBL libpcap (Packet Capture library)
   * [PacketFu](https://github.com/packetfu/packetfu): a mid-level packet manipulation library for Ruby for reading and writing packets to an interface
     or to a libpcap-formatted file.
+  * [pio](https://github.com/trema/pio): Pio is a ruby gem to easily parse (including pcap files) and generate network packets.   
 * Rust
   * [pcap](https://github.com/ebfull/pcap): Rust language pcap library.    
 * Tcl
