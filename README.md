@@ -10,6 +10,7 @@ This project does not contain any source code or files. I just want to make a li
 
 > * [Linux commands](#linuxcmds)
 > * [Traffic Capture](#capture)
+> * [Wrapper Libraries for libpcap/WinPcap](#wrapper)
 > * [Traffic Analysis/Inspection](#analysis)
 > * [DNS Utilities](#dnstools)
 > * [File Extraction](#fileextraction)
@@ -81,6 +82,48 @@ Traffic Capture<a name="capture"></a>
 
 * [Yaf](https://tools.netsa.cert.org/yaf/yaf.html): It's a reliable piece of software, quite solid and able to generate flow records from pcap. This is very nice for indexing huge pcap or even doing packet capture. The recent version can even extract payloads and put in the flow records.
 
+Wrapper Libraries for libpcap/WinPcap<a name="wrapper"></a>
+--------------------------------------------------
+
+* C++
+  * [libtins](https://github.com/mfontanini/libtins): libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
+  * [libcrafter](https://github.com/pellegre/libcrafter): A high level C++ network packet sniffing and crafting library.
+* C#
+  * [sharppcap](https://github.com/chmorgan/sharppcap): Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing packets
+  * [Pcap.Net](https://github.com/PcapDotNet/Pcap.Net): .NET wrapper for WinPcap written in C++/CLI and C#, which features almost all WinPcap features'
+    and includes a packet interpretation framework.   
+* Go
+  * [Gopcap](https://github.com/akrennmair/gopcap): A simple wrapper around libpcap for the Go programming language
+  * [GoPacket](https://github.com/google/gopacket): Provides packet processing capabilities for Go by google. Originally forked from the gopcap project
+    written by Andreas Krennmair
+* Haskell
+  * [pcap](http://hackage.haskell.org/package/pcap): A system-independent interface for user-level packet capture       
+* Java
+  * [jpcap](http://jpcap.sourceforge.net/): a network packet capture library for applications written in Java.
+  * [JNetPcap](http://jnetpcap.com/): A Java wrapper for nearly all libpcap library native calls
+  * [pcap4j](https://github.com/kaitoy/pcap4j): A Java library for capturing, crafting, and sending packets.
+* Perl
+  * [Net::Pcap](http://search.cpan.org/~saper/Net-Pcap/Pcap.pm): Interface to pcap(3) LBL packet capture library      
+* Python
+  * [Scapy](https://github.com/secdev/scapy) - Python-based interactive packet manipulation program & library
+  * [Scapy for Pythong3](https://github.com/phaethon/scapy) - Network packet and pcap file crafting/sniffing/manipulation/visualization security 
+    tool (based on scapy) with python3 compatibility
+  * [Pcapy](https://github.com/CoreSecurity/pcapy): Pcapy is a Python extension module that interfaces with the libpcap packet capture library.
+  * [python-libpcap](http://sourceforge.net/projects/pylibpcap/): Python module for the libpcap packet capture library, based on the original python
+    libpcap module by Aaron Rhodes.
+  * [pypcap](https://github.com/dugsong/pypcap): a simplified object-oriented Python wrapper for libpcap - the current tcpdump.org version, 
+    and the WinPcap port for Windows.
+  * [dpkt](https://github.com/kbandla/dpkt): fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols  
+* Ruby
+  * [pcaprub](https://github.com/pcaprub/pcaprub): libpcap bindings for ruby
+  * [ruby-pcap](https://github.com/ahobson/ruby-pcap): ruby-pcap is a ruby extension to LBL libpcap (Packet Capture library)
+  * [PacketFu](https://github.com/packetfu/packetfu): a mid-level packet manipulation library for Ruby for reading and writing packets to an interface
+    or to a libpcap-formatted file.
+* Rust
+  * [pcap](https://github.com/ebfull/pcap): Rust language pcap library.    
+* Tcl
+  * [Tclpcap](http://tclpcap.sourceforge.net/): tclpcap is a Tcl extension that provides access to the Pcap packet capture library.
+  * [Tcap](http://monkey.org/~jose/software/tcap/): Tcl pcap interface      
 
 Traffic Analysis/Inspection<a name="analysis"></a>
 --------------------------------------------------
